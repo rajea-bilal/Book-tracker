@@ -1,0 +1,79 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+
+h1, h2, h3 {
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background:black; */
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.6)), url(../img/pexels-ricardo-esquivel-1926988.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.text-container {
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+  
+.container h1 {
+  margin-bottom: 1em;
+  color: #ffeddb;
+}
+
+.container h2, h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  color: #ffeddb;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #e3d5ca;
+  border-radius: 1em;
+  width: 250px;
+}
+ 
+input {
+  background: #fff7ef;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  color: gray;
+}
+
+button {
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.6rem 0.6rem;
+  background: #3a5a40;
+  color: #f5ebe0;
+}
+  
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
